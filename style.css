@@ -1,3 +1,4 @@
+/* --- Variables & Reset --- */
 :root {
     /* Pastel Palette */
     --primary: #7FB3D5;
@@ -10,10 +11,10 @@
     --text-dark: #2C3E50;
     --text-light: #5D6D7E;
     
-    /* Background - Opsi Lavender */
-    --bg-ivory: #F8F6FF;       /* Lavender cream */
+    /* Background - Lavender Theme */
+    --bg-ivory: #F8F6FF;
     --bg-white: #FFFFFF;
-    --bg-pastel: #F0EBFF;      /* Lavender untuk section selang-seling */
+    --bg-pastel: #F0EBFF;
     
     --shadow: 0 10px 30px rgba(187, 143, 206, 0.2);
     --shadow-card: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -60,8 +61,8 @@ body {
 
 .bg-pastel {
     background: linear-gradient(135deg, var(--bg-pastel) 0%, #F5EBF9 100%);
-    border-top: 2px solid rgba(127, 179, 213, 0.2);
-    border-bottom: 2px solid rgba(127, 179, 213, 0.2);
+    border-top: 2px solid rgba(187, 143, 206, 0.2);
+    border-bottom: 2px solid rgba(187, 143, 206, 0.2);
 }
 
 .section-title {
@@ -138,7 +139,7 @@ body {
     padding: 15px 0;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
     transition: var(--transition);
-    border-bottom: 2px solid rgba(127, 179, 213, 0.15);
+    border-bottom: 2px solid rgba(187, 143, 206, 0.15);
 }
 
 .nav-container {
@@ -226,10 +227,9 @@ body {
     position: relative;
     overflow: hidden;
     padding-top: 80px;
-    background: linear-gradient(135deg, #FAFAFA 0%, #F0F7FF 100%);
+    background: linear-gradient(135deg, #F8F6FF 0%, #F0F7FF 100%);
 }
 
-/* Animated Blobs Background - Lebih Terlihat */
 .blob {
     position: absolute;
     border-radius: 50%;
@@ -242,7 +242,7 @@ body {
 .blob-1 {
     width: 350px;
     height: 350px;
-    background: rgba(130, 224, 170, 0.4); /* Mint */
+    background: rgba(130, 224, 170, 0.4);
     top: -50px;
     left: -50px;
 }
@@ -250,7 +250,7 @@ body {
 .blob-2 {
     width: 450px;
     height: 450px;
-    background: rgba(127, 179, 213, 0.3); /* Blue */
+    background: rgba(127, 179, 213, 0.3);
     bottom: -100px;
     right: -100px;
     animation-delay: -5s;
@@ -259,7 +259,7 @@ body {
 .blob-3 {
     width: 250px;
     height: 250px;
-    background: rgba(187, 143, 206, 0.35); /* Purple */
+    background: rgba(187, 143, 206, 0.35);
     top: 40%;
     left: 60%;
     animation-duration: 15s;
@@ -359,7 +359,7 @@ body {
 
 .profile-img:hover {
     transform: scale(1.03) rotate(2deg);
-    box-shadow: 0 25px 50px rgba(127, 179, 213, 0.3);
+    box-shadow: 0 25px 50px rgba(187, 143, 206, 0.3);
 }
 
 .image-border {
@@ -387,7 +387,7 @@ body {
     border-radius: 15px;
     text-align: center;
     flex: 1;
-    border: 2px solid rgba(127, 179, 213, 0.3);
+    border: 2px solid rgba(187, 143, 206, 0.3);
     box-shadow: var(--shadow-card);
     transition: var(--transition);
 }
@@ -425,7 +425,7 @@ body {
     text-align: center;
     box-shadow: var(--shadow-card);
     transition: var(--transition);
-    border: 2px solid rgba(127, 179, 213, 0.2);
+    border: 2px solid rgba(187, 143, 206, 0.2);
 }
 
 .skill-card:hover {
@@ -466,7 +466,7 @@ body {
     overflow: hidden;
     box-shadow: var(--shadow-card);
     transition: var(--transition);
-    border: 2px solid rgba(127, 179, 213, 0.15);
+    border: 2px solid rgba(187, 143, 206, 0.15);
 }
 
 .project-card:hover {
@@ -563,7 +563,7 @@ body {
     padding: 6px 14px;
     border-radius: 20px;
     font-weight: 600;
-    border: 1px solid rgba(127, 179, 213, 0.3);
+    border: 1px solid rgba(187, 143, 206, 0.3);
 }
 
 /* --- Contact Section --- */
@@ -575,7 +575,7 @@ body {
     background: white;
     border-radius: 30px;
     box-shadow: var(--shadow-card);
-    border: 2px solid rgba(127, 179, 213, 0.2);
+    border: 2px solid rgba(187, 143, 206, 0.2);
 }
 
 .social-links {
@@ -613,7 +613,7 @@ footer {
     background: white;
     padding: 40px 0;
     text-align: center;
-    border-top: 3px solid rgba(127, 179, 213, 0.2);
+    border-top: 3px solid rgba(187, 143, 206, 0.2);
 }
 
 footer p {
@@ -637,7 +637,7 @@ footer i {
     opacity: 0.8;
 }
 
-/* --- Animations (Scroll Reveal) --- */
+/* --- Animations --- */
 .reveal {
     opacity: 0;
     transform: translateY(50px);
