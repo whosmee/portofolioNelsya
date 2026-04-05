@@ -1,7 +1,7 @@
 // 1. Typing Effect Script
 const textElement = document.getElementById('typing-text');
 // Ganti kata-kata ini sesuai jurusan atau keahlian pacar kamu
-const texts = ["Pendidikan Teknik Informatika", "Web Developer", "UI/UX Enthusiast"];
+const texts = ["Pendidikan Teknologi Informasi", "Web Developer", "UI/UX Enthusiast"];
 let count = 0;
 let index = 0;
 let currentText = "";
